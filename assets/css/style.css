@@ -1,0 +1,81 @@
+/* index.html */
+
+.slider img {
+    height: 450px;
+    object-fit: cover;
+}
+.slider .carousel-caption{
+    top: 25%;
+    bottom: auto;
+}
+#sticky-heading , #videoPlay { 
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#sticky-heading::before , #videoPlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+#sticky-heading {
+    background-image: url(https://bootstrap-4-layout-shubhamj974.vercel.app/assets/images/lights.jpg);
+}
+#videoPlay{
+    background-image: url(https://bootstrap-4-layout-shubhamj974.vercel.app/assets/images/media.jpg);
+}
+
+
+
+/* aboutus.html css */
+
+.testimonials .testimonial .item {
+    color: #ffffff;
+}
+
+.testimonials .owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials button.owl-prev {
+    transform: translateX(-55px);
+}
+
+.testimonials button.owl-next {
+    transform: translateX(55px);
+}
+
+/* servies.html css */
+
+.servicesPlan li p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.accordianSec .accordion .card{
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+
+/*  */
+
+
+
+
+
+
